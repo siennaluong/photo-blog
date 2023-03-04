@@ -1,26 +1,34 @@
 module.exports = {
   siteMetadata: {
-    title: 'John Doe',
+    title: 'Sienna\'s blog',
     description:
-      'John Doe is a lifestyle photographer based in San Francisco, CA',
+      'Sienna is a business and computer science at Western University',
     url: 'https://gatsby-starter-amsterdam.netlify.com',
-    author: 'John Doe',
+    author: 'Sienna Luong',
     image: 'https://gatsby-starter-amsterdam.netlify.com/og-image.jpg',
-    intro: 'John Doe is a lifestyle photographer based in San Francisco, CA',
+    intro: 'This is Sienna Luong navigating her 20s.',
     menuLinks: [
       {
-        name: 'John Doe',
+        name: 'Sienna\'s blog',
         slug: '/',
       },
       {
-        name: 'Example Page',
+        name: 'About',
+        slug: '/example/',
+      },
+      {
+        name: 'Books I read',
+        slug: '/example/',
+      },
+      {
+        name: 'Checklist',
         slug: '/example/',
       },
     ],
     footerLinks: [
       {
-        name: 'Gatsby Theme Amsterdam',
-        url: 'https://github.com/ryanwiemer/gatsby-theme-amsterdam',
+        name: 'Portfolio',
+        url: 'https://siennaluong.github.io/',
       },
     ],
   },
@@ -30,12 +38,16 @@ module.exports = {
       options: {},
     },
     {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {},
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Gatsby Theme Amsterdam`,
         short_name: `Amsterdam`,
-        background_color: `#f5f0eb`,
-        theme_color: `#f5f0eb`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
         start_url: `/`,
         display: `standalone`,
         icon: require.resolve('./src/images/favicon.png'),
