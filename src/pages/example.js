@@ -46,42 +46,25 @@ const ExamplePage = ({ data }) => {
   return (
     <Container>
       <SEO title="Example Page" description="This is just an example page" />
-      <Title>Example Page</Title>
+      <Title>A little about myself</Title>
       <Content>
-        <p>
-          This is just a regular page{' '}
-          <a
-            href="https://www.gatsbyjs.org/docs/recipes/#creating-pages-automatically"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            created automatically
-          </a>{' '}
-          by placing a <code>React</code> component in <code>src/pages/</code>.
-          In the source code you will see an example of how to{' '}
-          <a
-            href="https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            shadow
-          </a>{' '}
-          components available in the theme such as the <code>Container</code>,{' '}
-          and <code>SEO</code> components. Additionally you will see how theme
-          values can be used with <code>Emotion</code> via the
-          <code>styled-components</code> syntax.
+
+        <p>Hi there, my name is Hai Thu Luong, but some people also know me as Sienna! I was born and raised in Hanoi for 16 years until I decided to move to Canada.
+          I am currently a business and computer sience at Western University, which may make me sound smart but honestly it's just me being indecisive!
         </p>
         <p>
-          For more information about the Gatsby theme powering this website
-          visit the{' '}
-          <a
-            href="https://github.com/ryanwiemer/gatsby-theme-amsterdam"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Gatsby Theme Amsterdam GitHub Repo
-          </a>
-          .
+          I aspire to be a software engineer because I genuinely believe the world needs more builders, and since I have
+          all the resources to pursue it I might as well. That's why outside of school, you can catch me grinding out my personal projects or doing hackathons, 
+          ranging from AI project to a unity game. Please shoot me an email if you wish to chat with me about anything tech-related!
+        </p>
+        <p>
+          I am also an avid foodie-my friend once said I am literally ran by my stomach. I enjoy eating all sort of foods, in fact everything except sellfish or animals organs.
+          I also enjoy cooking, but how my food tastes is a completely different story... I also love taking nice photo of people and places I adore. Follow me @chinsufriedrice to see some of them
+        </p>
+        <p>
+          While I do have some sense of life direction, I must admit I still feel quite unsure about my future a lot of the times. 
+          This blog serves as an outlet for me to reflect on my self-discovery journey as I navigate through adulthood.
+          I hope my experience speaks to anyone who is in similar boat!
         </p>
       </Content>
     </Container>
