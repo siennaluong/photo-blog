@@ -61,11 +61,6 @@ const AboutPage = ({ data }) => {
           I am also an avid foodie-my friend once said I am literally ran by my stomach. I enjoy eating all sort of foods, in fact everything except sellfish or animals organs.
           I also enjoy cooking, but how my food tastes is a completely different story... I also love taking nice photo of people and places I adore. Follow me @chinsufriedrice to see some of them
         </p>
-        <p>
-          While I do have some sense of life direction, I must admit I still feel quite unsure about my future a lot of the times. 
-          This blog serves as an outlet for me to reflect on my self-discovery journey as I navigate through adulthood.
-          I hope my experience speaks to anyone who is in similar boat!
-        </p>
       </Content>
     </Container>
   )
