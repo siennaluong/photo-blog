@@ -57,10 +57,8 @@ const AboutPage = ({ data }) => {
           all the resources to pursue it I might as well. That's why outside of school, you can catch me grinding out my personal projects or doing hackathons, 
           ranging from AI project to a unity game. Please shoot me an email if you wish to chat with me about anything tech-related!
         </p>
-        <p>
-          I am also an avid foodie-my friend once said I am literally ran by my stomach. I enjoy eating all sort of foods, in fact everything except sellfish or animals organs.
-          I also enjoy cooking, but how my food tastes is a completely different story... I also love taking nice photo of people and places I adore. Follow me @chinsufriedrice to see some of them
-        </p>
+       
+
       </Content>
     </Container>
   )
