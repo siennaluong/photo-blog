@@ -6,7 +6,7 @@ module.exports = {
     url: 'https://gatsby-starter-amsterdam.netlify.com',
     author: 'Sienna Luong',
     image: 'https://gatsby-starter-amsterdam.netlify.com/og-image.jpg',
-    intro: 'Sienna is a third year student based in London, Ontario.',
+    intro: 'Sienna is an aspiring software engineer based in London, Ontario.',
     menuLinks: [
       {
         name: 'Sienna\'s blog',
