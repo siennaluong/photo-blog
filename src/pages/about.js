@@ -58,7 +58,7 @@ const AboutPage = ({ data }) => {
           ranging from AI project to a unity game. Please shoot me an email if you wish to chat with me about anything tech-related!
         </p>
        <p>I have a big passion for learning new skills and knowledge. I find the process of mastering something new is very rewarding! My main interests are in computer science and engineer,
-        history and cognitive/neuroscience. I even have a bucket list for things I want to learn more about, you can check it out <a href={siennaswriting.netlify.app/learn}>here</a>.
+        history and cognitive/neuroscience. 
         </p>
       </Content>
     </Container>
