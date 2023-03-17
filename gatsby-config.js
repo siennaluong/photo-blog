@@ -14,15 +14,11 @@ module.exports = {
       },
       {
         name: 'About',
-        slug: '/example/',
+        slug: '/about/',
       },
       {
-        name: 'Books I read',
-        slug: '/example/',
-      },
-      {
-        name: 'Checklist',
-        slug: '/example/',
+        name: 'Learning',
+        slug: '/learn/',
       },
     ],
     footerLinks: [
