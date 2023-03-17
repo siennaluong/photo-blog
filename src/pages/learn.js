@@ -113,6 +113,13 @@ const LearnPage = ({ data }) => {
           <li>Hike all the trails in London, Ontario</li>
           <li>Jog for 15 minutes nonstop</li>
         </List>
+        <H3>Languages:</H3>
+        <List>
+          <li>Achieve DELF A1 in French</li>
+          <li>Can do basic conversation in German</li>
+          <li>Achieve N5 in Japanese</li>
+          <li>Finish that mobile Mandarin course</li>
+        </List>
       </Content>
     </Container>
   )
