@@ -70,8 +70,8 @@ const H3 = styled.h3`
 const LearnPage = ({ data }) => {
   return (
     <Container>
-      <SEO title="Learn Page" description="Skills and knowledge I want to pick up" />
-      <Title>I want to be able to...</Title>
+      <SEO title="Learn" description="Skills and knowledge I want to pick up" />
+      <Title>I want to...</Title>
       <Content>
         <p style={{fontStyle: 'italic'}}>The list does not follow any order and is still subject to future changes</p>
         <H3>Technical:</H3>
@@ -116,7 +116,7 @@ const LearnPage = ({ data }) => {
         <H3>Languages:</H3>
         <List>
           <li>Achieve DELF A1 in French</li>
-          <li>Can do basic conversation in German</li>
+          <li>Have a simple conversation in German</li>
           <li>Achieve N5 in Japanese</li>
           <li>Finish that mobile Mandarin course</li>
         </List>
