@@ -17,8 +17,8 @@ module.exports = {
         slug: '/about/',
       },
       {
-        name: 'Learn list',
-        slug: '/learn/',
+        name: 'Goals',
+        slug: '/goals/',
       },
     ],
     footerLinks: [

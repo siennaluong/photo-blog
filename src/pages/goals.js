@@ -67,14 +67,14 @@ const H3 = styled.h3`
 `
 
 
-const LearnPage = ({ data }) => {
+const GoalPage = ({ data }) => {
   return (
     <Container>
       <SEO title="Learn" description="Skills and knowledge I want to pick up" />
       <Title>I want to...</Title>
       <Content>
         <p style={{fontStyle: 'italic'}}>The list does not follow any order and is still subject to future changes</p>
-        <H3>Technical:</H3>
+        <H3>Technical achievements:</H3>
         <List>
           <li>Have a foundational understanding of Machine Learning</li>
           <li>Solve Leetcode medium questions in under 20 minutes</li>
@@ -85,7 +85,7 @@ const LearnPage = ({ data }) => {
           <li>Have a good grasp of OOP</li>
           <li>Build a "build your own" project</li>
         </List>
-        <H3>Cooking:</H3>
+        <H3>Cooking achievements:</H3>
         <List>
           <li>Make a true carbonara</li>
           <li>Make an apple pie</li>
@@ -95,7 +95,7 @@ const LearnPage = ({ data }) => {
           <li>Make those salmon muffin bowls</li>
           <li>Make the teokbokki sauce</li>
         </List>
-        <H3>Knowledge:</H3>
+        <H3>Knowledge achievements:</H3>
         <List>
           <li>Have an basic understanding of Astrophysics</li>
           <li>Have an understanding of history of mankind</li>
@@ -108,14 +108,14 @@ const LearnPage = ({ data }) => {
           <li>Know how to invest/trade stocks</li>
           <li>Have a basic understanding of computational neuroscience</li>
         </List>
-        <H3>Hiking/Running:</H3>
+        <H3>Fitness achievements:</H3>
         <List>
-          <li>Hike all the trails in London, Ontario</li>
-          <li>Jog for 15 minutes nonstop</li>
+          <li>Hike a trail a month</li>
+          <li>Participate in a marathon</li>
         </List>
-        <H3>Languages:</H3>
+        <H3>Languages achievements:</H3>
         <List>
-          <li>Achieve DELF A1 in French</li>
+          <li>Achieve DELF A2 in French</li>
           <li>Have a simple conversation in German</li>
           <li>Achieve N5 in Japanese</li>
           <li>Finish that mobile Mandarin course</li>
@@ -125,4 +125,4 @@ const LearnPage = ({ data }) => {
   )
 }
 
-export default LearnPage
+export default GoalPage
