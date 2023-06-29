@@ -9,7 +9,7 @@ module.exports = {
     intro: 'A record of Sienna Luong\'s navigating her 20s.',
     menuLinks: [
       {
-        name: 'Sienna\'s blog',
+        name: 'Sienna\'s Blog',
         slug: '/',
       },
       {
