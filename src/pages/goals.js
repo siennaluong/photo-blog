@@ -74,7 +74,7 @@ const GoalPage = ({ data }) => {
       <Title>I want to...</Title>
       <Content>
         <p style={{fontStyle: 'italic'}}>The list does not follow any order and is still subject to future changes</p>
-        <H3>Technical achievements:</H3>
+        <H3>Technical:</H3>
         <List>
           <li>Have a foundational understanding of Machine Learning</li>
           <li>Solve Leetcode medium questions in under 20 minutes</li>
@@ -85,7 +85,7 @@ const GoalPage = ({ data }) => {
           <li>Have a good grasp of OOP</li>
           <li>Build a "build your own" project</li>
         </List>
-        <H3>Cooking achievements:</H3>
+        <H3>Cooking/baking:</H3>
         <List>
           <li>Make a true carbonara</li>
           <li>Make an apple pie</li>
@@ -95,25 +95,24 @@ const GoalPage = ({ data }) => {
           <li>Make those salmon muffin bowls</li>
           <li>Make the teokbokki sauce</li>
         </List>
-        <H3>Knowledge achievements:</H3>
+        <H3>Know something about:</H3>
         <List>
-          <li>Have an basic understanding of Astrophysics</li>
-          <li>Have an understanding of history of mankind</li>
-          <li>Have an understanding of the Vietnamese History</li>
-          <li>Have an understanding of the Canadian History</li>
-          <li>Have an understanding of the British History</li>
-          <li>Have an understanding of the Chinese History</li>
-          <li>Have an understanding of the German History</li>
-          <li>Have an understanding of the Japanese History</li>
-          <li>Know how to invest/trade stocks</li>
-          <li>Have a basic understanding of computational neuroscience</li>
+          <li>Astrophysics</li>
+          <li>History of mankind</li>
+          <li>The Vietnamese History</li>
+          <li>The British History</li>
+          <li>The Chinese History</li>
+          <li>The German History</li>
+          <li>The Japanese History</li>
+          <li>invest/trade stocks</li>
+          <li>computational neuroscience</li>
         </List>
-        <H3>Fitness achievements:</H3>
+        <H3>Fitness:</H3>
         <List>
           <li>Hike a trail a month</li>
           <li>Participate in a marathon</li>
         </List>
-        <H3>Languages achievements:</H3>
+        <H3>Languages:</H3>
         <List>
           <li>Achieve DELF A2 in French</li>
           <li>Have a simple conversation in German</li>
